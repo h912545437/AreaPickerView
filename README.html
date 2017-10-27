@@ -1017,16 +1017,25 @@ body .markdown-body
 </style><title>README</title></head><body><article class="markdown-body"><h1 id="areapickerview"><a name="user-content-areapickerview" href="#areapickerview" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>AreaPickerView</h1>
 <pre><code>最简单的选择地理位置控件
 </code></pre>
-<h3 id="_1"><a name="user-content-_1" href="#_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>使用方法</h3>
-<p>1 复制AreaPickerView文件夹到项目工程,确保文件夹里面内容被包含到target</p>
-<p>2<br />
-<pre><code>@IBAction func chooseBtnClick() {
-
+<h2 id="_1"><a name="user-content-_1" href="#_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>使用方法</h2>
+<h3 id="areapickerviewtarget"><a name="user-content-areapickerviewtarget" href="#areapickerviewtarget" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>复制AreaPickerView文件夹到项目工程,确保文件夹里面内容被包含到target</h3>
+<h3 id="_2"><a name="user-content-_2" href="#_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>选择三级地址</h3>
+<p><pre><code>@IBAction func chooseBtnClick() {
     AreaPickView.showChooseCityView { (province, city,            town) in
         self.areaLabel.text = province + &quot; &quot; + city + &quot; &quot;         + town
         }
 
+}
+
+</code></pre><br />
+<img alt="" height="35%" src="https://github.com/h912545437/AreaPickerView/blob/master/Images/WX20171027-104346@2x.png?raw=true" width="35%" /></p>
+<h3 id="_3"><a name="user-content-_3" href="#_3" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>选择二级地址</h3>
+<p><pre><code>@IBAction func chooseBtnClick() {
+    AreaPickView.showChooseCityView { (province, city,            town) in
+        self.areaLabel.text = province + &quot; &quot; + city + &quot; &quot;         + town
+        }
 
 }
 
-</code></pre></p></article></body></html>
+</code></pre><br />
+<img alt="" height="35%" src="https://github.com/h912545437/AreaPickerView/blob/master/Images/WX20171027-110406@2x.png?raw=true" width="35%" /></p></article></body></html>
