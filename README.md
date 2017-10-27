@@ -10,9 +10,12 @@
 2
 ```
 @IBAction func chooseBtnClick() {
+
     AreaPickView.showChooseCityView { (province, city,            town) in
         self.areaLabel.text = province + " " + city + " "         + town
         }
+
+
 }
 
 ```
