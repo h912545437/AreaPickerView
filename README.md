@@ -17,7 +17,7 @@
 }
 
 ```
-![](https://github.com/h912545437/AreaPickerView/blob/master/Images/WX20171027-104346@2x.png?raw=true){:height="35%" width="35%"}
+<img width="35%" height="35%" src="https://github.com/h912545437/AreaPickerView/blob/master/Images/WX20171027-104346@2x.png?raw=true"/>
 
 ###选择二级地址
 ```
@@ -29,4 +29,4 @@
 }
 
 ```
-![](https://github.com/h912545437/AreaPickerView/blob/master/Images/WX20171027-110406@2x.png?raw=true){:height="35%" width="35%"}
+<img width="35%" height="35%" src="https://github.com/h912545437/AreaPickerView/blob/master/Images/WX20171027-110406@2x.png?raw=true"/>
